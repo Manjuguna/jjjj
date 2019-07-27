@@ -1,15 +1,15 @@
-bt=int(input())
-xt=[]
-for i in range(bt):
-  at=input()
-  xt.append(at)
-mv2=min(xt,key=len)
-xt.remove(mv2)
-for i in range(len(mv2)):
-  for j in range(len(xt)):
-     cv2=xt[j]
-     if mv2[:i+1]==cv2[:i+1]:
-       result=mv2[:i+1]
+bx=int(input())
+xy=[]
+for i in range(bx):
+  ax=input()
+  xy.append(ax)
+mg=min(xy,key=len)
+xy.remove(mg)
+for i in range(len(mg)):
+  for j in range(len(xy)):
+     ck=xy[j]
+     if mg[:i+1]==ck[:i+1]:
+       result=mg[:i+1]
      else:
        break
 print(result)
